@@ -1,0 +1,62 @@
+/********************/					
+	Read Me
+/********************/
+
+/*************************/
+Instructions/ Installation
+/*************************/
+
+		Extract the folder from rar file using any zip software.
+		Open it with Android Studio.
+		Apk is generated and can be found in this link inside the app folder --> <appname>\app\build\outputs\apk
+                
+/************************/
+Description
+/************************/
+
+		The app consists of two activity named Itinerary Activity and ItineraryEdit Activity.
+		Itinerary Activity provides the list view to display the Event Id, Event Name and MET created by the user.
+		ItineraryEdit Activity provides the TimePicker Widget, 3 Buttons nmaed save, discard and delete respectively.
+		
+		Buttons are used to provide actionListeners:
+			1)Save button saves the values into database.
+ 			2)Discard button discards the changes made to existing MET.
+			3)Delete button deletes the selected event from the database.
+			4)TimePicker provides a way to pick values for MET.
+               		
+                
+/************************/
+DBHelper.class
+/***********************/
+
+		SQLite is used to create a database to store, retrieve and modify the data.
+                             
+/***********************/
+Inputs 
+/***********************/
+
+		Click New Event on action bar of Itinerary Activity to create a new event.
+		Click Set Alarm to set alram for MET created by the user.
+		Click Cancel Alarm to cancel alarm that has been set.
+
+	Note: Cancel Alarm only works for the one alarm.
+
+/***********************/
+Outputs
+/***********************/
+
+		Events will be created and displayed in the list view.
+		Users will be able to set alarms, cancel alarm and create event.
+		
+
+/*********************/
+Developed by
+/*********************/
+
+		Varun Krishna
+		Email: kvarun94@csu.fullerton.edu
+
+		Note: Thank You for providing more time to finish this app.
+
+		Note: I have used android list view insted of custom view. 
+		So the list view will also display Event ID as I am fetching it for modifying the event.  
