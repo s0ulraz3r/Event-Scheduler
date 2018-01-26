@@ -25,3 +25,6 @@
 
 # Note:
 	> Cancel Alarms will only work once due to the bug present in the AlarmClock class.
+
+
+> Instruction for installation is present in the ReadME folder.
