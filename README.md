@@ -28,3 +28,5 @@
 
 
 > Instruction for installation is present in the ReadME folder.
+##### Project assgined By: Prof Avery.
+##### Project Developed By: Varun Krishna.
